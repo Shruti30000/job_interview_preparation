@@ -1,0 +1,97 @@
+:root {
+    --display-font-size-1: 5rem;
+  }
+  
+  .display-font-family {
+    font-family: null; /* Replace with your desired font family */
+  }
+  
+  .display-font-style {
+    font-style: null; /* Replace with your desired font style */
+  }
+  
+  .display-font-weight {
+    font-weight: 300;
+  }
+  
+  .display-line-height {
+    line-height: var(--headings-line-height); /* Replace with the correct variable or value */
+  }
+
+  :root {
+    --prefix-navbar-color: #your-dark-color;
+    --prefix-navbar-hover-color: #your-dark-hover-color;
+    --prefix-navbar-disabled-color: #your-dark-disabled-color;
+    --prefix-navbar-active-color: #your-dark-active-color;
+    --prefix-navbar-brand-color: #your-dark-brand-color;
+    --prefix-navbar-brand-hover-color: #your-dark-brand-hover-color;
+    --prefix-navbar-toggler-border-color: #your-dark-toggler-border-color;
+    --prefix-navbar-toggler-icon-bg: url('your-dark-toggler-icon-bg'); /* Replace with your image path or value */
+  }
+  
+  
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light gray background color */
+}
+
+.container-fluid {
+    max-width: 1140px; /* Set a maximum width for the content */
+    margin: 0 auto; /* Center the content */
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #007bff; /* Bootstrap's primary blue color */
+}
+
+.navbar-brand, .nav-link {
+    color: #fff; /* White text color */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* White color for the toggle icon */
+}
+
+/* Form Styles */
+.mb-3 {
+    margin-bottom: 15px; /* Add some margin between form elements */
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Heading Styles */
+h1, h3, h6 {
+    color: #007bff; /* Bootstrap's primary blue color */
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: #fff; /* White text color */
+    background-color: #007bff; /* Bootstrap's primary blue color */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
